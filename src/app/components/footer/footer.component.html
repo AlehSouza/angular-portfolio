@@ -5,7 +5,7 @@
         @for (link of midia; track link) {
         <a href={{link.link}} target="_blank" rel="noopener noreferrer">
             <div class="link">
-                <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon={{link.icon}}></mat-icon>
+                <fa-icon [icon]="link.icon"></fa-icon>
             </div>
         </a>
         }

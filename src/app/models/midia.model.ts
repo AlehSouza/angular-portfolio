@@ -1,5 +1,5 @@
 export type Midia = {
     link: string,
-    icon: string,
+    icon: any,
     alt: string,
 }
