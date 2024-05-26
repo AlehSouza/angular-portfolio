@@ -1,0 +1,20 @@
+<div class="container">
+    <h1 class="title">Trajetória</h1>
+    <p class="sub-title">Um pouco sobre mim e o papel que desempenhei em diferentes empresas.</p>
+    <div class="trajectory">
+        @for (path of trajectory; track path) {
+        <div class="path-container">
+            <div class="path-wrapper-header">
+                <div class="line"></div>
+                <div class="path-header-point"></div>
+                <div class="line"></div>
+            </div>
+            <div class="path-wrapper-content">
+                <span class="path-title">{{path.title.pt_br}}</span>
+                <span class="path-text">{{path.text.pt_br}}</span>
+                <span class="path-text date">{{path.text.date}}</span>
+            </div>
+        </div>
+        }
+    </div>
+</div>

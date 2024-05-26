@@ -1,0 +1,14 @@
+.content {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.1);
+    transition: 0.3s;
+    flex-direction: column;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 80%;
+    }
+}

@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="title">Tecnologias</h1>
+    <p class="sub-title">Qualificando minhas habilidades de 0 a 5 em determinadas tecnologias.</p>
+    <div class="stacks">
+        @for (stack of stacks; track stack) {
+        <div class="stack-container">
+            <div class="stack-icon">
+                <img src={{stack.image}} alt="" srcset="">
+            </div>
+            <span class="stack-name">{{stack.name}}</span>
+        </div>
+        }
+    </div>
+</div>
