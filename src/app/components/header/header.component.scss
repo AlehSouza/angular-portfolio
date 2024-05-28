@@ -1,0 +1,128 @@
+.content {
+    background-image: url("https://i.imgur.com/oqDcmWF.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sub-content {
+    width: 100%;
+    padding: 80px 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.wrapper {
+    width: 60%;
+    justify-content: space-between;
+    gap: 18px;
+    display: flex;
+}
+
+.box {
+    width: 50%;
+}
+
+.profile {
+    width: 265px;
+    height: 265px;
+    border: 8px solid var(--primary-color);
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+}
+
+.sub-content-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    h1 {
+        padding: 18px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 38px;
+    }
+}
+
+.tags {
+    gap: 8px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.tag {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-high-color);
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 50px;
+    padding: 4px 16px;
+}
+
+.midias {
+    padding: 20px;
+    gap: 12px;
+    display: flex;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.midia {
+    width: 39px;
+    height: 39px;
+    border: 1px solid black;
+    border-radius: 100px;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .mat-icon {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
+
+.sub-content-right {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    h1 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    h2 {
+        padding: 18px;
+        font-size: 18px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        width: 100%;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}

@@ -20,17 +20,17 @@ export class TrajectoryComponent {
         date: '03/02/2020'
       },
     },
-    {
-      title: {
-        pt_br: `Keycash`,
-        eng: `Keycash`,
-      },
-      text: {
-        pt_br: `Atuei como Quality Assurance(QA), escrevendo testes e fazendo fluxos no sistema.`,
-        eng: `I worked as Quality Assurance(QA), writing tests and making flows in the system.`,
-        date: '30/04/2021'
-      },
-    },
+    // {
+    //   title: {
+    //     pt_br: `Keycash`,
+    //     eng: `Keycash`,
+    //   },
+    //   text: {
+    //     pt_br: `Atuei como Quality Assurance(QA), escrevendo testes e fazendo fluxos no sistema.`,
+    //     eng: `I worked as Quality Assurance(QA), writing tests and making flows in the system.`,
+    //     date: '30/04/2021'
+    //   },
+    // },
     {
       title: {
         pt_br: `Keycash`,

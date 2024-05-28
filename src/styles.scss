@@ -9,8 +9,30 @@
     padding: 0px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+}
+
 :root {
-    --primary-color: #773dde
+    --primary-color: #773dde;
+    --primary-high-color: #5f2eb4;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

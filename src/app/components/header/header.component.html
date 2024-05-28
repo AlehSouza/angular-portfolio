@@ -1,0 +1,30 @@
+<div class="content">
+    <div class="sub-content">
+        <div class="wrapper">
+            <div class="sub-content-left box">
+                <div class="profile">
+                    <img src={{user.avatar_url}} alt="">
+                </div>
+                <h1>{{user.name}}</h1>
+                <div class="tags">
+                    @for (tag of tags; track tag) {
+                        <span class="tag">{{tag}}</span>
+                    }
+                </div>
+                <div class="midias">
+                    @for (midia of midias; track midia) {
+                        <a href={{midia.link}} target="_blank">
+                            <div class="midia">
+                                <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon={{midia.icon}}></mat-icon>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+            <div class="sub-content-right box">
+                <h1>Enjoy!</h1>
+                <h2>{{user.bio}}</h2>
+            </div>
+        </div>
+    </div>
+</div>

@@ -53,3 +53,12 @@
         padding: 24px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .author {
+        flex-direction: column;
+        span{
+            padding: 12px;
+        }
+    }
+}
